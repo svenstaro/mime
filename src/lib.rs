@@ -615,6 +615,8 @@ names! {
     MSGPACK, "msgpack";
     OCTET_STREAM, "octet-stream";
     PDF, "pdf";
+    ZIP, "zip";
+    GZIP, "gzip";
 
     // common font/*
     WOFF, "woff";
@@ -772,6 +774,8 @@ mimes! {
     APPLICATION_OCTET_STREAM, "application/octet-stream", 11;
     APPLICATION_MSGPACK, "application/msgpack", 11;
     APPLICATION_PDF, "application/pdf", 11;
+    APPLICATION_ZIP, "application/zip", 11;
+    APPLICATION_GZIP, "application/gzip", 11;
 
     MULTIPART_FORM_DATA, "multipart/form-data", 9;
 }
